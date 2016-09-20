@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../../resource/css/global.css">
+</head>
+<body>
+	<div class="container">
+		<iframe src="main-frame.html" frameborder="0"></iframe>
+	</div>
+</body>
+</html>

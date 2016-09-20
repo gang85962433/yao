@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+body {
+	background: #FFEDDC;
+	background: -webkit-linear-gradient(#FC7F01, #FEDDBC, #FFEDDC,#FFF5EB);
+	background: -moz-linear-gradient(#FC7F01, #FEDDBC, #FFEDDC,#FFF5EB);
+	background: -ms-linear-gradient(#FC7F01, #FEDDBC, #FFEDDC,#FFF5EB);
+	background: -o-linear-gradient(#FC7F01, #FEDDBC, #FFEDDC,#FFF5EB);
+}
+.container {
+	width: 700px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.4);
+	border: 3px solid #e0d7d7;
+	border-radius: 20px;
+	position: fixed;
+	left: 50%;
+	top: 120px;
+	margin-left: -350px;
+	-webkit-box-reflect: below 10px -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+	-moz-box-reflect: below 10px -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+	-ms-box-reflect: below 10px -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+	-o-box-reflect: below 10px -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.tit {
+	font-size: 32px;
+	color: #3F3A39;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 85px;
+}
+.parting-line {
+	height: 2px;
+	background: #fcf9f6;
+	background: -webkit-linear-gradient(left, #FFE3C8, #fee9d5, #fbeddf, #fbf4ed, #fcf9f6, #fdfbfa, #fff, #fff, #fff, #fdfbfa, #fcf9f6, #fbf4ed, #fbeddf, #fee9d5, #FFE3C8);
+	background: -moz-linear-gradient(left, #FFE3C8, #fee9d5, #fbeddf, #fbf4ed, #fcf9f6, #fdfbfa, #fff, #fff, #fff, #fdfbfa, #fcf9f6, #fbf4ed, #fbeddf, #fee9d5, #FFE3C8);
+	background: -ms-linear-gradient(left, #FFE3C8, #fee9d5, #fbeddf, #fbf4ed, #fcf9f6, #fdfbfa, #fff, #fff, #fff, #fdfbfa, #fcf9f6, #fbf4ed, #fbeddf, #fee9d5, #FFE3C8);
+	background: -o-linear-gradient(left, #FFE3C8, #fee9d5, #fbeddf, #fbf4ed, #fcf9f6, #fdfbfa, #fff, #fff, #fff, #fdfbfa, #fcf9f6, #fbf4ed, #fbeddf, #fee9d5, #FFE3C8);
+}
+.login-content {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -150px;
+}
+.login-content div > label {
+	display: inline-block;
+	width: 65px;
+	font-size: 16px;
+}
+.login-content .text-import {
+	width: 220px;
+	height: 25px;
+	font-size: 14px;
+	border: 1px solid #999;
+	background: rgba(255, 255, 255, 0.5);
+	filter: alpha(opacity:50);
+}
+.login-content .username {
+	margin: 60px 0 20px;
+}
+.remember {
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+.remember-username {
+	margin-right: 15px;
+}
+.remember li > input {
+	width: 16px;
+	height: 16px;
+}
+.remember li > span {
+	font-size: 14px;
+}
+.login-btn {
+	width: 240px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	margin-left: -120px;
+}
+.login-btn input {
+	display: block;
+	width: 80px;
+	height: 35px;
+	font-size: 16px;
+	font-family: 宋体;
+}
